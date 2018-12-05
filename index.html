@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">JUSTGAMES<span class="fa fa-gamepad"></span> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span><p id="follow">Follow Us</p>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+    	<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Like us on Facebook"><span class="fa fa-facebook-square fa-2x"></span></a>
+  		<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Follow us on Twitter"><span class="fa fa-twitter-square fa-2x"></span></a>
+  		<a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Follow us on Instagram"><span class="fa fa-instagram fa-2x"></span></a>
+    </div>
+  </div>
+</nav>
+	
+	<div class="container">
+	<h1 id="title"><strong>Survey</strong></h1>
+	<p id="description">Fill in this form to help us improve our 'Mystery Games' subscription service!</p>
+	
+	<form id="survey-form">
+
+		<div class="form-group">
+		    <label id="name-label" for="name"><strong>1. Name:</strong> </label>
+		    <input type="name" class="form-control" id="name" placeholder="Enter name" required>
+		</div>
+
+		<div class="form-group">
+    	   <label id="email-label" for="email"><strong>2. E-mail: </strong></label>
+    	   <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+    	</div>
+
+    	<div class="form-group">
+    	   <label id="number-label" for="number"><strong>3. How many times did you use our subscription?</strong></label>
+    	   <input type="number" class="form-control" id="number"placeholder="Enter number of months" min="0" max="24">
+    	</div>
+
+    	<div class="form-group">
+    	    <label for="dropdown"><strong>4. Age group:</strong></label>
+    	    <select class="form-control" id="dropdown">
+    	      <option>Select your age group</option>
+    	      <option>10-15</option>
+    	      <option>16-21</option>
+    	      <option>22-30</option>
+    	      <option>31-40</option>
+    	      <option>41-50</option>
+    	      <option>50 <</option>
+    	    </select>
+    	</div>
+
+    	<p><strong>5. Gender:</strong></p>
+    	<div class="form-check form-check-inline">  
+    	  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    	  <label class="form-check-label" for="inlineRadio1">Male</label>
+    	</div>
+    	<div class="form-check form-check-inline">
+    	  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    	  <label class="form-check-label" for="inlineRadio2">Female</label>
+    	</div><br><br>
+
+    	<p><strong>6. Favourite game categories:</strong></p>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
+    	  <label class="form-check-label" for="defaultCheck1">
+    	    Simulations
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="2" id="defaultCheck2">
+    	  <label class="form-check-label" for="defaultCheck2">
+    	    Adventure
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="3" id="defaultCheck3">
+    	  <label class="form-check-label" for="defaultCheck3">
+    	    Puzzle
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="4" id="defaultCheck4">
+    	  <label class="form-check-label" for="defaultCheck4">
+    	    Action
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="5" id="defaultCheck5">
+    	  <label class="form-check-label" for="defaultCheck5">
+    	    Combat
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="6" id="defaultCheck6">
+    	  <label class="form-check-label" for="defaultCheck6">
+    	    Sports
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="7" id="defaultCheck7">
+    	  <label class="form-check-label" for="defaultCheck7">
+    	    First Person Shooters (FPS)
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="8" id="defaultCheck8">
+    	  <label class="form-check-label" for="defaultCheck8">
+    	    Role-Playing (RPG)
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="9" id="defaultCheck9">
+    	  <label class="form-check-label" for="defaultCheck9">
+    	    Real-Time Strategy (RTS)
+    	  </label>
+    	</div>
+    	<div class="form-check">
+    	  <input class="form-check-input" type="checkbox" value="10" id="defaultCheck10">
+    	  <label class="form-check-label" for="defaultCheck10">
+    	    Massively Multiplayer Online (MMO)
+    	  </label>
+    	</div>
+    	<div class="form-group">
+  		   <label for="textareao"><strong>Other:</strong></label>
+  		   <textarea class="form-control" id="textareao" rows="1"></textarea>
+  		</div>
+
+  		<br><div class="form-group">
+  		   <label for="textarea"><strong><em>7. Additional comments</em></strong></label>
+  		   <textarea class="form-control" id="textarea" rows="3" placeholder="Tell us how we can improve"></textarea>
+  		</div>
+
+  		 <button type="submit" class="btn btn-dark" id="submit">Submit</button>
+
+	</form>
+</div>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

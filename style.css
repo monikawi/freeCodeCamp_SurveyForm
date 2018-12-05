@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	background-image:url("ruvim-noga-711147-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.navbar {
+	 position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.navbar-brand {
+	font-family: 'Black Han Sans', sans-serif;
+	cursor: auto;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram { 
+color: white; 
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.navbar-toggler-icon {
+	font-size: 10px;
+}
+
+#follow {
+	font-size: 10px;
+	margin-bottom: 0;
+}
+
+.container {	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: auto;
+	width: 50%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#title, #description {
+	text-align: center;
+	
+}
+
+#description {
+	text-decoration: underline;
+}
+
+
+#textarea {
+	margin-bottom: 30px;
+}
+.btn {
+	padding: 10px;
+	font-size: 1.2em;
+	display: block;
+	margin: auto;
+	border: 2px solid white;
+}
